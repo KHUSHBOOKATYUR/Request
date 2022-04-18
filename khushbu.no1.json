@@ -1,0 +1,89 @@
+{
+    "course": {
+        "id": "157",
+        "name": "NG Essentials-Learning Systems in Campus ",
+        "logo": "http://navgurukul.org/img/sqlogo.jpg",
+        "notes": null,
+        "days_to_complete": null,
+        "short_description": "This is NG Essentials-Learning Systems in Campus",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "3862",
+                "parent_exercise_id": null,
+                "course_id": "157",
+                "name": "Induction Of New students",
+                "slug": "NG-Essentials-Learning-Systems-in-Campus__Induction",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/NG-Essentials-Learning-Systems-in-Campus/Induction.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "## Induction of New students:-\n\n\n\nWhen new students step inside the campus, they have no idea where to go and what to do?\nIn order to resolve this problem of new students, we have come up with an idea explained in steps as below:-\n\n\n\n- An **induction meeting** should be planned for the new student, where they should introduce themselves in front of the Team Members  as well as the Council Members.\n\n- New students should be informed about the **community culture** as well as **Academics Time `Tab`le** followed at Navgurukul. This is the responsibility of Council members, Outreach Team.\n\n- New students should read this **NavGurukul Foundation Educational Structure doc** firstly by themselves to understand the academic procedure followed at the campus and then one **cultural activity** will be conducted for them to Brainstorm on that educational doc.\n\n- **TNP (Training and Placement coordinator)** has to ensure that the new student should get a mentor by the second day.\n\n- They should be introduced to the **Syllabus** by the Academic Associates that they have to complete within 9 months.\n\n- Classes should be conducted for new students for about 3 weeks till `operators` and after that, the student will study on their own and with the help of their mentors.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "3864",
+                "parent_exercise_id": null,
+                "course_id": "157",
+                "name": "Concept Of Peer Learning",
+                "slug": "NG-Essentials-Learning-Systems-in-Campus__Concept_of_Peer_Learning",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/NG-Essentials-Learning-Systems-in-Campus/Concept_of_Peer_Learning.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "## Concept of Peer Learning\n\n\n\nNavgurukul follows the concept of peer learning and supports the Mentor and Coach System. So, let's deep dive to understand what is meant by peer learning, Mentor as well as Coach system.\n\n\n\n## Peer Learning\n\n\n\nIt means that one student teaches another student. At Navgurukul, **peer learning** is strongly recommended because it builds good understanding skills and brings concept clarity.\n\n\n\n### Example :-\n\n\n In this, first the student will try to study any concept on her own, if she faces any difficulty then she will sit with another student who is doing the same topic and discuss it with her. If a weak student makes a pair with a good or fast-paced student. This will not only reduce her time of understanding but will also inculcate confidence in her. By discussing, they can share new ways of understanding the same concept and the `codes` that they have written.\n\n\n\nIt depends on the peer learners how much time they can devote to peer learning.\n\n\n\n## Benefits of Peer Learning :-\n\n\n\n- It helps students to think individually on a given topic and discuss it with their peer learners so that she may come to know whether she is thinking in the right direction or not.\n\n- It teaches students to share ideas with their peers and builds communication skills as well as helps in increasing their self-confidence.\n\n- It strengthens focus and engages students in comprehending the reading material and gains a better understanding of the given topic if they have any language barriers.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "3863",
+                "parent_exercise_id": null,
+                "course_id": "157",
+                "name": "Mentor Mentee System",
+                "slug": "NG-Essentials-Learning-Systems-in-Campus__Mentor_Mentee_System",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/NG-Essentials-Learning-Systems-in-Campus/Mentor_Mentee_System.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "## Mentor : Mentee System\n\n\n\n## Mentor\n\n\n\n**A mentor is a student who guides another student by building trust and modeling positive behaviors. An effective mentor understands that her role is to be like a teacher, a motivator, a role model, an advisor and should be a very strong support system to the mentee.**\n\n\n\n At Navgurukul,\n\n- A mentor should be allotted to new students to help them in their studies.\n\n- A mentor should give at least 1 hour daily.\n\n- A mentor should take interviews of their mentee by the end of the week.\n\n- After taking the interview, the mentor should update the Progress Tracker sheet for her mentee based on her mentee\u2019s interview performance.\n\n- For the interview, the mentor can also ask her mentee to make a presentation/ video of that given topic.\n\n- This progress Tracker Sheet is handled by TNP\u2019s(Training and Placement Coordinators).\n\n- If the mentee feels that her mentor needs to work or improve her explanation skills then the mentor can ask her mentee to take a class with lots of real-life examples on the given topic. This will not only improve their explanation skills but also help in boosting her confidence.\n\n\n\n\n**The selection process of a mentor is not very specific, any student can become a mentor if she completes her topics and can handle their mentees\u2019 academics effectively. Every student has to become a mentor either weak or strong.**\n\n\n\n## Benefits of mentoring for Mentors:-\n\n\n\n- Boosts self-confidence.\n\n- Builds self-awareness.\n\n- Develops Leadership skills.\n\n- Communication skills and learn the art of    giving feedback to mentees.\n\n- Learn the art of asking questions.\n\n- Becomes an active listener.\n\n\n\n## Mentee\n\n\n\n**The mentee is the student who learns from the mentors and utilizes that knowledge to complete that particular topic and also further studies.**\n\n\n\nSo, here in Navgurukul, there is a Mentor/Mentee Tree designed where it's shown who is the mentor of whom.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "3865",
+                "parent_exercise_id": null,
+                "course_id": "157",
+                "name": "Who Is TNP?",
+                "slug": "NG-Essentials-Learning-Systems-in-Campus__Who_is_TNP?",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/NG-Essentials-Learning-Systems-in-Campus/Who_is_TNP?.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "## Who is TNP?\n\n\n\n**TNP stands for Training and Placement Coordinator**.\n\n- TNP's are those senior students who conduct academic circle every week and take interviews of students and based upon their progress they send them to the next topic, handling the updation of student\u2019s academic Dashboard. \n\n- TNP\u2019s coordinate with the Academic Associates to update them regarding each student\u2019s progress. \n\n- They also maintain the progress tracker sheet and ensure that all mentors have filled their mentee's sheet after taking interviews every week.\n\n- They also prepare the mentee and mentor tree.\n\n"
+                    }
+                ]
+            }
+        ]
+    }
+}

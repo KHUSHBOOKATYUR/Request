@@ -1,0 +1,515 @@
+[
+    {
+        "id": "7698",
+        "parent_exercise_id": null,
+        "course_id": "297",
+        "name": "Why-Navgurukul-and-life-at-campuses",
+        "slug": "residential-programmes_json__Why-Navgurukul-and-life-at-campuses_json",
+        "sequence_num": 0,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Why-Navgurukul-and-life-at-campuses.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Why Navgurukul and life at campuses"
+            },
+            {
+                "component": "text",
+                "value": "Life at our different campuses is vibrant and community based. We live, study and carry out the daily chores together. There are currently six campuses as mentioned below:"
+            },
+            {
+                "component": "text",
+                "value": "Pune",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Bangalore",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Sarjapur",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Dharamshala",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Delhi",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Tripura",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Please watch these videos for an overview of life at campuses. Then, we will go into details of the residential programmes at each of the campuses. (Pune/Bangalore/Sarjapur have simialr programmes hence, their information will be at one place together)"
+            },
+            {
+                "component": "text",
+                "value": "Who can join NavGurukul: "
+            },
+            {
+                "component": "youtube",
+                "value": "ztpsLr9icCA"
+            },
+            {
+                "component": "text",
+                "value": "Safety &amp; Security of Campus: "
+            },
+            {
+                "component": "youtube",
+                "value": "7awZ1KCqvIw"
+            },
+            {
+                "component": "text",
+                "value": "Campus Stay &amp; Community Living: "
+            },
+            {
+                "component": "youtube",
+                "value": "eaXvYAqVu6M"
+            },
+            {
+                "component": "text",
+                "value": "Life at NavGurukul: "
+            },
+            {
+                "component": "youtube",
+                "value": "IqMUClmN7"
+            },
+            {
+                "component": "text",
+                "value": "Program introduction in 2 minutes:  "
+            },
+            {
+                "component": "youtube",
+                "value": "dLVT1fJeWHI"
+            }
+        ]
+    },
+    {
+        "id": "7695",
+        "parent_exercise_id": null,
+        "course_id": "297",
+        "name": "Pune-Bangalore-Sarjapur",
+        "slug": "residential-programmes_json__Pune-Bangalore-Sarjapur_json",
+        "sequence_num": 100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Pune-Bangalore-Sarjapur.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Pune/Bangalore/Sarjapur Campuses: For 600 Girls &amp; Transwomen"
+            },
+            {
+                "component": "text",
+                "value": "1 year of the residential training program. You need to <b>stay on campus</b> and complete the course. It is an all-female campus including team members. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Fully funded: We will take care of your <b>fooding, lodging, internet, and laptop</b>. You don\u2019t need to pay anything for this. You will be required to take care of your personal &amp; medical expenses and travels. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "We provide <b>guaranteed jobs</b> post completion of the program, starting from <b>Rs. 20000/month or more</b> in SMEs &amp; Startups. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "In one year, we will provide you with training in <b>Software Engineering, English Communication, and Personality Development</b>. Even if you haven\u2019t seen or operated a laptop, it is completely fine. We will assess your current skills &amp; knowledge and start your academics from the point you need to learn from. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are a community space. You will be required to support the campus team in <b>running & managing the campus; including cooking & cleaning</b>. Once you join, it is going to be your campus and we want all our students to participate and lead in managing various aspects of the campus operations. It will help you get a first-hand experience of becoming a leader. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are fully vegetarian and we provide nutritious meals including milk to make sure your health is well taken care of. You <b>will not be allowed</b> to cook or bring cooked non-vegetarian food from outside to campus. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "You will not be allowed to join our program if you are <b>applying/preparing for Govt, Jobs, working/studying full time.</b> ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Two sisters will not be allowed to stay on the same campus. If two sisters are selected, they would be asked to join two different campuses of ours. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "Life of Students in Pune Campus (Bangalore &amp; Sarjapur videos coming soon)"
+            },
+            {
+                "component": "youtube",
+                "value": "UMvmVW5QUo4"
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "Please read the following PDF &amp; poster (Google Drive links):"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://docs.google.com/presentation/d/1pNuqtESgWuEvn1N9Httvv8Rq32GefyzO6WrLTbibY4g/edit?usp=sharing\">Info session Deck</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/1nC304hPmYxGhMCQ4elEON6KAN_cYXwh2/view?usp=sharing\">Admissions Poster</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7694",
+        "parent_exercise_id": null,
+        "course_id": "297",
+        "name": "Dharamshala",
+        "slug": "residential-programmes_json__Dharamshala_json",
+        "sequence_num": 200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Dharamshala.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Dharamshala: For 60 Boys"
+            },
+            {
+                "component": "text",
+                "value": "1 year of the residential training program. You need to <b>stay on campus</b> and complete the course. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Fully funded: We will take care of your <b>fooding, lodging, internet, and laptop</b>. You don\u2019t need to pay anything for this. You will be required to take care of your personal &amp; medical expenses and travels. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "We provide <b>guaranteed jobs</b> post completion of the program, starting from <b>Rs. 20000/month or more</b> in SMEs &amp; Startups. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "In one year, we will provide you with training in <b>Software Engineering, English Communication, and Personality Development</b>. Even if you haven\u2019t seen or operated a laptop, it is completely fine. We will assess your current skills &amp; knowledge and start your academics from the point you need to learn from. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are a community space. You will be required to support the campus team in <b>running & managing the campus; including cooking & cleaning</b>. Once you join, it is going to be your campus and we want all our students to participate and lead in managing various aspects of the campus operations. It will help you get a first-hand experience of becoming a leader. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are fully vegetarian and we provide nutritious meals including milk to make sure your health is well taken care of. You will <b>not be allowed</b> to cook or bring cooked non-vegetarian food from outside to campus. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "You will not be allowed to join our program if you are <b>applying/preparing for Govt, Jobs, working/studying full time</b>. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "Please read the following PDF &amp; poster (Google Drive links):"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://docs.google.com/presentation/d/1pNuqtESgWuEvn1N9Httvv8Rq32GefyzO6WrLTbibY4g/edit?usp=sharing\">Info Session Deck</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/1nC304hPmYxGhMCQ4elEON6KAN_cYXwh2/view?usp=sharing\">Admissions Poster</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7697",
+        "parent_exercise_id": null,
+        "course_id": "297",
+        "name": "Delhi",
+        "slug": "residential-programmes_json__Delhi_json",
+        "sequence_num": 300,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Delhi.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Delhi Campus with Delhi Skill &amp; Entrepreneurship University (DSEU): For 100 Girls &amp; Trans women"
+            },
+            {
+                "component": "text",
+                "value": "<b>20-month residential training program</b> in the <b>main campus of DSEU in Sector-9 Dwarka, Delhi</b>. You need to stay on campus and complete the course. It is an all-female campus including team members. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Fully funded: We will take care of your <b>fooding, lodging, internet, and laptop</b>. You don\u2019t need to pay anything for this. You will be required to take care of your personal &amp; medical expenses and travels. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "We provide <b>guaranteed jobs</b> post completion of the program, starting from <b>Rs. 20000/month or more</b> in SMEs &amp; Startups. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "In one year, we will provide you training on <b>Software Engineering, English Communication, Personality Development and 6month of industrial training</b>. Even if you haven\u2019t seen or operated a laptop, it is completely fine. We will assess your current skills &amp; knowledge and start your academics from the point you need to learn from.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "You will be provided <b>UGC granted Certificate by DSEU University a certificate on Advance Diploma in Software Programming</b>.  ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are a community space. You will be required to support the campus team in <b>running & managing the campus; including cooking & cleaning</b>. Once you join, it is going to be your campus and we want all our students to participate and lead in managing various aspects of the campus operations. It will help you get a first-hand experience of becoming a leader. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are fully vegetarian and we provide nutritious meals including milk to make sure your health is well taken care of. You will <b>not be allowed</b> to cook or bring cooked non-vegetarian food from outside to campus. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "You will not be allowed to join our program if you are <b>applying/preparing for Govt, Jobs, working/studying full time</b>. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "Please read the following PDF &amp; poster (Google Drive links):"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://docs.google.com/presentation/d/1DjLzHvCAB0IHhKnphqCQbTJ4thp1CxkG/edit?usp=sharing&ouid=113053930305549942424&rtpof=true&sd=true\">DSEU Info Session Deck</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/1RJQhRqAkIfe3odMTUpmEg-iOeCeoLRTK/view?usp=sharing\">Admissions Poster - Delhi Govt.</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "More Links:"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://dseu.ac.in/adspwithnavgurukul/\">DSEU Website</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Register before attempting the first test: <a href=\"https://admission.dseu.ac.in/AdmForms/adsp-navgurukul\">DSEU Admissions Form</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7696",
+        "parent_exercise_id": null,
+        "course_id": "297",
+        "name": "Tripura",
+        "slug": "residential-programmes_json__Tripura_json",
+        "sequence_num": 400,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/residential-programmes_json/Tripura.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Tripura Campus with Tripura Tribal Welfare Department (TTWD): For 150 Girls &amp; Trans women from Tripura"
+            },
+            {
+                "component": "text",
+                "value": "<b>18-month residential training program</b> in the <b>Shaheed Bhagat Youth Hostel campus in Agartala, Tripura</b>. You need to stay on campus and complete the course. It is an all-female campus including team members. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Fully funded: We will take care of your <b>fooding, lodging, internet, and laptop</b>. You don\u2019t need to pay anything for this. You will be required to take care of your personal &amp; medical expenses and travels. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "We provide <b>guaranteed jobs</b> post completion of the program, starting from <b>Rs. 20000/month or more</b> in SMEs &amp; Startups. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "In one year, we will provide you with training in <b>Software Engineering, English Communication, and Personality Development</b>. Even if you haven\u2019t seen or operated a laptop, it is completely fine. We will assess your current skills &amp; knowledge and start your academics from the point you need to learn from.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are a community space. You will be required to support the campus team in <b>running & managing the campus; including cooking & cleaning</b>. Once you join, it is going to be your campus and we want all our students to participate and lead in managing various aspects of the campus operations. It will help you get a first-hand experience of becoming a leader. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Our campuses are fully vegetarian and we provide nutritious meals including milk to make sure your health is well taken care of. You will <b>not be allowed</b> to cook or bring cooked non-vegetarian food from outside to campus. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "You will not be allowed to join our program if you are <b>applying/preparing for Govt, Jobs, working/studying full time</b>. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Two sisters will not be allowed to stay on the same campus. If two sisters are selected, they would be asked to join two different campuses of ours. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "header",
+                "variant": 3,
+                "value": "Please read the following PDF &amp; poster (Google Drive links):"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/19Yb5Qw0zvAsBRZw8AD0qNOCPeSbyS09K/view?usp=sharing\">TTWD Info Session Deck</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/1QjjKgsmrgn3hK3rmW1e3cMoJWQXzgeYV/view?usp=sharing\">TTWD Admissions Poster</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"https://drive.google.com/file/d/1RaMEyF5Snbtdn47Bsk7u3OSZB_-HWKeb/view?usp=sharing\">Tripura Govt. Poster</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    }
+]

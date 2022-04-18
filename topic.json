@@ -1,0 +1,495 @@
+{
+    "course": {
+        "id": "53",
+        "name": "Understanding programming through recursion",
+        "logo": "http://bit.do/recursion-png",
+        "notes": null,
+        "days_to_complete": "45",
+        "short_description": "Iss course ko hum use kar kar recursions aur programming ki depth mei jayenge.",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "4472",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "Pending To-Dos (for course creators)",
+                "slug": "recursion__todo_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/todo.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Pending Tasks\n\n- **Yogendra** Simple Series (Alternative Series 1) Video\n\n- **Pavan** Simple Series (Alternative Series 2) Video\n\n- **Yogendra** Factorial video\n\n- **Satyam** Sum of a list solution video\n\n- **Yogendra** palindrome `string` solution video\n\n- ~~**Satyam** fibonacci series solution Video~~\n\n- **Pralhad** fibonacci series advanced solution Video\n\n- **Pralhad** binary search solution Video\n\n- **Pavan** calculate solution Video\n\n- **Pavan/Pralhad** nested lists\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4479",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "introduction",
+                "slug": "recursion__introduction_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/introduction.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Recursions\n\nPrerequitisites\n\nIss course ko karne ke liye aapke paas inn concepts ki solid understanding honi chahiye:\n\n\n\n1 - Functions\n2 - `Loops`, If-Else Conditions, `Operators`, Booleans, etc.\n\n\n\nYeh image dekho\n\n\n\n"
+                    },
+                    {
+                        "type": "image",
+                        "value": {
+                            "url": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/recursion/assets/sierpinski_triangle.png",
+                            "text": "Recursion"
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nIss image mei triangle ke andar triangle ke andar triangle hai... Yeh ek tarah se triangles ki `recursion` hai. Saral shabdo mei agar aap kisi cheez ko, ussi hi cheez ke terms mei express kar sakte hai toh usse recursion kehte hai. Jaise ki yeh numbers dekho :\n\n\n\n1, 2, 4, 8, 16, 32, 64, 128, 256\n\n\n\nAb yeh `code` dekho\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def twopowers(number):\n    if number==1:\n        return 1\n    return 2 * twopowers(number-1)\n\nindex=1\nwhile(index<10):\n    print(twopowers(index))\n    index+=1",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nIss `code` mei `twopowers` function mei `twopowers` function ko hi call kar rahe hai. Ek tarah se yeh function apni value nikalne ke liye, khud ko hi call kar raha hai. \n\n\n\nKyuki function khud ko hi baar baar call kar raha hai, kabhi toh function ko value return karni hogi. Isliye hum `base case` add karte hai. Jaise humne iss program mei likha ki agar `number` ki value `1` hai toh, `1` return kar do.\n\n\n\nToh ab program mei jab hum `twopowers(5)` call karte hai, toh woh `2 * twopowers(4)` return kar deta hai.\nPar iss expression ko calculate karne ke liye `twopowers(4)` ki value chahiye, isliye woh uss value ka wait karta hai.\n\n\n\nToh ab program mei jab hum `twopowers(4)` call karte hai, toh woh `2 * twopowers(3)` return kar deta hai.\nPar iss expression ko calculate karne ke liye `twopowers(3)` ki value chahiye, isliye woh uss value ka wait karta hai.\n\n\n\nToh ab program mei jab hum `twopowers(3)` call karte hai, toh woh `2 * twopowers(2)` return kar deta hai.\nPar iss expression ko calculate karne ke liye `twopowers(2)` ki value chahiye, isliye woh uss value ka wait karta hai.\n\n\n\nToh ab program mei jab hum `twopowers(2)` call karte hai, toh woh `2 * twopowers(1)` return kar deta hai.\nPar iss expression ko calculate karne ke liye `twopowers(1)` ki value chahiye, isliye woh uss value ka wait karta hai.\n\n\n\nToh ab program mei jab hum `twopowers(1)` call karte hai, toh woh `1` return kar deta hai. **BASE CASE CONDITION**\n\n\n\nAb kyuki `twopowers(1)` ki value pata hai. Toh `2 * twopowers(1)` ki value calculate ho kar 2 * 1 = `2` pata chal jaati hai. Yeh `twopowers(2)` ki value hai.\n\n\n\nAb kyuki `twopowers(2)` ki value pata hai. Toh `2 * twopowers(2)` ki value calculate ho kar 2 * 2 = `4` pata chal jaati hai. Yeh `twopowers(3)` ki value hai.\n\n\n\nAb kyuki `twopowers(3)` ki value pata hai. Toh `2 * twopowers(2)` ki value calculate ho kar 2 * 4 = `8` pata chal jaati hai. Yeh `twopowers(4)` ki value hai.\n\n\n\nAb kyuki `twopowers(4)` ki value pata hai. Toh `2 * twopowers(3)` ki value calculate ho kar 2 * 8 = `16` pata chal jaati hai. Yeh `twopowers(5)` ki value hai.\n\n\n\nIsliye `twopowers(5)` ka answer 16 hai.\n\n\n\nKya aap isi tarah sochte hue, agli exercise mei diye hue kuch patterns ka solution likh sakte hai?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4484",
+                "parent_exercise_id": "4484",
+                "course_id": "53",
+                "name": "simple-series",
+                "slug": "recursion__patterns/simple-series_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/patterns/simple-series.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Pattern\n\n1, 4, 7, 10, 13, 16 ...\n\n\n\nHint\n\n- Kisi bhi element ko nikalne ke liye, aapko peechle element mei 3 add karna hai.\n\n- Base Case ka dhyaan rakhein\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def pattern(number):\n    if number == 1:\n        return 1\n    else:\n        return pattern(number-1) + 3",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4485",
+                "parent_exercise_id": "4484",
+                "course_id": "53",
+                "name": "alternative-series-2",
+                "slug": "recursion__patterns/alternative-series-2_md",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/patterns/alternative-series-2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Pattern\n\n10, 11, 110, 111, 1110, 1111, 11110, 11111, 111110, 111111 ...\n\n\n\nHint\n\n- Kisi bhi element ko nikalne ke liye\n  - nth element (n-1)th element ka 10 times hai agar n odd hai\n  - nth element (n-1)th element mei 1 jod kar milta hai agar n even hai toh\n\n- Base Case ka dhyaan rakhein - jab 1st element nikalna ho\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def pattern(number):\n    if number == 1:\n        return 10\n    elif number % 2 == 0:\n        return pattern(number - 1) + 1\n    else:\n        return pattern(number - 1) * 10",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4473",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "factorial",
+                "slug": "recursion__factorial_md",
+                "sequence_num": 300,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/factorial.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Factorial\n\nFactorial ek maths ka function hota hai, jiska kaafi jagah use hota hai, specially probability yaani chance calculate karne ke liye.\n\n\n\nFactorial ko hum exclamation mark `operator` se dikhate hai. Jaise,\n\n\n\n`7!`, `9!`, etc.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "7! => 7 * 6 * 5 * 4 * 3 * 2 * 1",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Kisi bhi number ka factorial 1 se le kar uss number tak ke beech ke saare numbers ka product hota hai. Kya aap factorial function recursion ka use kar kar likh sakte hai?\n\n\n\nHint\n\n- Agar aapko `7!` factorial nikalna hai, aur aapke paas `6!` factorial given hai, toh aap kaise nikaloge? Agar aap yeh sahi se soch paa rahe hai, phir program likhna asaan ho jayega.\n\n\n- Base case kya hoga?\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def factorial(number):\n    if number==1:\n        return 1\n    return number * factorial(number - 1)\n\nprint factorial(5)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAage\n\nYeh function aap bina recursion ke bhi likh sakte hai. Kya aap bina recursion ke bhi likh kar implemment kar sakte hai?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4474",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "sum-of-a-list",
+                "slug": "recursion__sum-of-a-list_md",
+                "sequence_num": 400,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/sum-of-a-list.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Sum of a List\n\nAgar aapko sum karna ho list ke elements ka recursion use kar kar, toh aap kaise karoge?\n\n\n\nHint\n\n- Ek list ke elements ka sum dekhne ke liye, aap pehle element ko baaki bachi hui list ke sum se jod kar dekh sakte hai\n\n- Base case kya hoga?\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "# sum nahi use kar sakte as the function name, as sum python ka reserved keyword hai\n# list nahi use kar sakte as an argument name, as list python ka reserved keyword hai\n\ndef sum_list(lis):\n    if len(lis)==1:\n        return lis[0]\n    return lis[0] + sum_list(lis[1:])\n\nprint sum_list([1, 4, 7, 10])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAage\n\nKya aap aise hi ek length naam ka function bana sakte hai?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4475",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "palindrome-string",
+                "slug": "recursion__palindrome-string_md",
+                "sequence_num": 500,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/palindrome-string.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Palindrome\n\nPalindrome woh `string` ya number hota hai, jo left se right aur right se left same hota hai. Jaise `nayan` `string`. Aap isse left se dekhoge toh bhi `nayan` hai, aur right se dekhoge toh bhi `nayan` hai.\n\n\n\n`naina` jaise palindrome nahi hai. Left se yeh `naina` hai, par right se `anian` hai. Aur dono alag alag hai.\n\n\n\nAapko ek function likhna hai recursion use kar kar jo dekhega ki given `string` `palindrome` hai ya nahi.\n\n\n\nHint\n\n- Agar pehla aur aakhiri character list mei alag hoga, toh list palindrome nahi hai.\n\n- Agar pehla aur aakhiri character list mei same hai, toh list palindrome hai agar bacchi hui list (list mei agar pehla aur aakhiri element hata do toh) palindrome hai.\n\n- Agar list mei ek character hai, toh woh hamesha palindrome hoga.\n\n- Agar list mei do character hai, aur woh dono same hai toh palindrome hoga, else palindrome nahi hoga.\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def ifPalindrome(string):\n    if string == \"\":  # BASE CASE CONDITION\n        return True\n    elif len(string) == 1:  # BASE CASE CONDITION\n        return True\n    elif string[0] == string[len(string)-1]:  # RECURSION\n        return ifPalindrome(string[1:][:-1])\n    else:\n        return False",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4476",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "fibonacci-series",
+                "slug": "recursion__fibonacci-series_md",
+                "sequence_num": 600,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/fibonacci-series.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Fibonacci series yeh hoti hai:\n\n\n\n**0, 1, 1, 2, 3, 5, 8, 13, 21, 34**\n\n\n\nIss series ka `pehla_number 0` hai aur `dusra_number` 1 hai. Aur uske baad har number `peechle do` numbers ka `sum` hota hai\n\n\n\nJaise,\n`teesra number` = `pehla_number` + `dusra_number`\n`1 = 0 + 1`\n`chautha_number` = `dusra_number` + `teesra_number`\n`2 = 1 + 1`\n\n\n\nAap isse recursion ka use kar kar - ek function banaye `fib` jo `number` parameter lekar uske corresponding `fibonacci number` return karta ho.\n\n\n\nHint\n\nYeh ek aisi recursion hai jismei current value - ussi function ki last do values par depend karta hai.\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def getFibNumber(number):\n    if number == 1:\n        return 0\n    elif number == 2:\n        return 1\n    else:\n        return getFibNumber(number-1) + getFibNumber(number-2)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAage\n\nAap apni understanding expand karne ke liye yeh video dekh sakte hai.\n\n\n\n"
+                    },
+                    {
+                        "type": "youtube",
+                        "value": "koFsRrJgioA"
+                    }
+                ]
+            },
+            {
+                "id": "4477",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "fibonacci-advanced",
+                "slug": "recursion__fibonacci-advanced_md",
+                "sequence_num": 700,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/fibonacci-advanced.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss program mei hum ek aisa function banayenge jo fibonacci numbers ki list generate karta ho. Ek bahut asaan tareeka yeh hai ki, jo function humne pehle fibonacci numbers solve karne ke liye banaya tha, hum usi function ko use kar le.\n\n\n\nYeh wala program bahut mushkil nahi hai - agar aap dhyaan se notebook par sochoge.\n\n\n\nJaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def fib(number):\n    if number == 1:\n        return 0\n    elif number == 2:\n        return 1\n    else:\n        return fib(number-1) + fib(number-2)\n\ndef getFibList(number):\n    fib_list = []\n    key = 1\n    while (key < number + 1):\n        fib_list.append(fib(key))\n        key += 1\n    return fib_list\n\nprint(getFibList(10))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nIss `code` ka dry run kar kar ya `terminal` par run kar kar dekhiye, kaise `getFibList` ek list return karta hai, jismei fibonacci numbers hai. Ab yehi list humei recursion se banani hai. Kya aap yeh bana sakte hai?\n\n\n\nHint\n\n- Yeh single recursion se ho jayega - iska matlab aap koi bhi fibonacci list sirf peechli wali fibonacci list ko use kar kar hi nikal sakte ho\n\n\n- Ab aapka base case, ek list return karega\n\n\n- Kyuki aapka function ab ek list return kar raha hai, toh aapko yeh sochna padega ki aapki list mei kya function use karenge recursion karne ke liye.\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def getFibList(number):\n    if number == 1:\n        return [1]\n\n    elif number == 2:\n        return [1, 1]\n\n    else:\n        get_previous_fib_list = getFibList(number-1)\n        new_last_element = get_previous_fib_list[-1] + get_previous_fib_list[-2]\n\n        # jab hum list mei kuch append karte hai toh, woh list update ho jaati hai\n        get_previous_fib_list.append(new_last_element)\n\n        # get_previous_fib_list ab update ho gayi hai, par kyuki ab yeh current list hai, previous nahi\\\n        # toh confusion avoid karne ke liye hum ek nayi variable mei yeh list daal kar return karenge\n        # jisse code padhne wala confuse na ho\n\n        current_fib_list = get_previous_fib_list\n\n        return current_fib_list",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4478",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "binary-search",
+                "slug": "recursion__binary-search_md",
+                "sequence_num": 800,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/binary-search.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Binary Search\n\nHumei ek list mei koi element search karna hai. Ek example lete hai.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "to_find_list = [2, 5, 9, 12, 81, 23, 71, 28, 90, 67]\nto_find_element = 81",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAb aise sochiye ki humein dekhna hai ki `to_find_element`, `to_find_list` mei hai ya nahi. Agar aap `to_find_list` ko do parts mei divide kar doge, toh kya aap yeh dekh paa rahe hai, ki agar `to_find_element` - `to_find_list` mei hai, toh woh inn dono mei se kisi part mei toh jaroor hoga.\n\n\n\nKyuki `to_find_list` mei 10 elements hai, toh dono parts ko 5-5 elements each milenge.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "first_part = [2 , 5, 9, 12, 81]\nsecond_part = [23, 71, 28, 90, 67]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\n`81` element jo humei search karna tha woh pehle list mei hai.\n\n\n\nToh agar aap dekhein toh\n\n\n\n`to_find_element` - `to_find_list` mei hoga agar woh uske dono mei se kisi part mei hai, nahi toh nahi hoga. Toh aap iss information ko use kar kar `code` likhein jo element ko search karta hai.\n\n\n\nDhyaan rakhein ki dheere dheere dono parts ya toh empty ho jayenge, ya usmei ek single element bachega jo `to_find_element` ke equal hoga.\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def is_present_in_list(number_to_search, list_to_search):\n    length_of_list = len(list_to_search)\n\n    if length_of_list == 0:\n        return False\n\n    if length_of_list == 1:\n        # list_to_search[0] is the only element left in this list\n        if number_to_search == list_to_search[0]:\n            return True\n        else:\n            return False\n\n    first_half_of_list = list_to_search[:length_of_list/2]\n    second_half_of_list = list_to_search[length_of_list/2:]\n\n    return is_present_in_list(number_to_search, first_half_of_list) or is_present_in_list(number_to_search, second_half_of_list)\n\nprint is_present_in_list(3, [3, 5, 7, 8, 4, 6, 2, 1, 9])\nprint is_present_in_list(10, [3, 5, 7, 8, 4, 6, 2, 1, 9])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nDhyaan Rakhein\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def is_present_in_list(number_to_search, list_to_search):\n    counter = 0\n    while (counter < len(list_to_search)):\n        if number_to_search == list_to_search[counter]:\n            return True\n        counter += 1\n\n    return False\n\nprint is_present_in_list(3, [3, 5, 7, 8, 4, 6, 2, 1, 9])\nprint is_present_in_list(10, [3, 5, 7, 8, 4, 6, 2, 1, 9])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nuse kar kar abhi tak humne yeh `code` likha tha. Yeh kaafi efficient tareeka bhi hai. Par humne recursion wala tareeka apni understanding build karne ke liye hi kiya hai.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4482",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "calculate",
+                "slug": "recursion__calculate_md",
+                "sequence_num": 900,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/calculate.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Calculate\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def operate(num1, operator, num2):\n    if operator=='+':\n        return num1 + num2\n    elif operator=='-':\n        return num1 - num2\n    elif operator=='*':\n        return num1 * num2\n    else:\n        return num1 / num2",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nYeh ek simple sa function hai, jo do numbers leta hai, `operator` leta hai, aur unn numbers par woh operation kar kar return kar deta hai.\n\n\n\nMaan lo user aap ko yeh `input` deta hai:\n\n\n\n'3 + 5 - 2 * 4 / 2 + 8 - 10 * 9 / 3'\n\n\n\nAap ko ek function banana hai jo iss `string` ko evaluate karega, left se right ke order mei. Yaani agar sabhi `operators` ki same precedence (yaani importance) hoti, toh hum left se right chalte aur ek ek kar kar result calculate kar lete.\n\n\n\nJaise:\n'3 + 5 - 2 * 4 / 2 + 8 - 10 * 9 / 3'\n'8 - 2 * 4 / 2 + 8 - 10 * 9 / 3'\n'6 * 4 / 2 + 8 - 10 * 9 / 3'\n'24 / 2 + 8 - 10 * 9 / 3'\n'12 + 8 - 10 * 9 / 3'\n'20 - 10 * 9 / 3'\n'10 * 9 / 3'\n'90 / 3'\n'30'\n30 is the answer.\nAgar aap dhyaan se sochenge toh yeh bhi ek recursion hai.\n\n\n\nHint\n\n- Kya yaha par aap `split` function use kar sakte hai?\n\n\n- Base case kya hoga?\n\n\n- What's the problem? Kya aap uss problem ko choti problem mei break kar sakte ho?\nYaani aap ke paas agar ek badi `string` hai, toh kis chotti `string` ka agar aapke paas answer hota toh, aapki problem bahut easily solve ho jaati.\n\n## Solution\n'3 + 5 - 2 * 4 / 2 + 8 - 10 * 9 / 3'\nko pehle split karein:\n['3', '+', '5', '-', '2', '*', '4', '/', '2', '+', '8', '-', '10', '*', '9', '/', '3']\n\n\n\nAb yeh dekhein:\n[num1]\n[num1, `operator`, num2]\n`base cases` hai. Kyuki agar in dono mei se koi bhi `input` hoga, toh aapko answer bahut easily find kar sakte hai, `operate` function use kar kar.\n\n\n\n`['3', '+', '5', '-', '2', '*', '4', '/', '2', '+', '8', '-', '10', '*', '9']` - Agar aapke paas iska answer hai toh, maan lo, woh answer value hai. Toh aapke question ka answer\n`[value, '/', '3']` hai. Yaani list ke last ke do elements skip kar kar, jo remaining hui list hai uska answer ka use kar kar, aap apne question ko solve kar sakte ho.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def operate(num1, operator, num2):\n    if operator=='+':\n        return num1 + num2\n    elif operator=='-':\n        return num1 - num2\n    elif operator=='*':\n        return num1 * num2\n    else:\n        return num1 / num2\n\ndef solve(question_list):\n    if len(question_list)==1:\n        return int(question_list[0])\n    elif len(question_list)==3:\n        return operate(int(question_list[0]), question_list[1], int(question_list[2]))\n    else:\n        return operate(solve(question_list[:-2]), question_list[-2], int(question_list[-1])) \n\nsolve(['3', '+', '5', '-', '2', '*', '4', '/', '2', '+', '8', '-', '10', '*', '9', '/', '3'])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAage\n\nYeh function aap bina recursion ke bhi likh sakte hai. Kya aap bina recursion ke bhi likh kar implemment kar sakte hai?\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4483",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "nested-lists",
+                "slug": "recursion__nested-lists_md",
+                "sequence_num": 1000,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/nested-lists.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Nested Lists\n\nAise sochiye ki aapke paas ek list hai, jismei numbers bhi ho sakte hai, aur lists bhi, aur jo lists uss list mei hai, uske andar bhi numbers ya list ho sakte hai, aur aapko nahi pata ki kab list hai kab numbers, aur kitne levels deep tak aisa hai.\n\n\n\nKya aap aisa `code` likh sakte hai jo aisi `nested list` ko ek `flat list` mei convert karega, yaani saare elements chahe woh kitne bhi deep ho, woh ek nayi list mei directly accessible honge.\n\n\n\nJaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "[1, 2, [3, 4, [5, 6, [7, 8]], 9, 10], 11, 12] # input\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] #output",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nYeh aapko recursion ka use kar kar, karna hai.\n\n\n\nHints\n\n- Agar aapke paas andar ki saari lists flat hai, toh kya aap yeh recursion soch paa rahe hai?\n\n\n- Yeh check karne ke liye ki element `integer` hai ya list, aap aisa kar sakte hai:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import types\n\nvarA = 10\nvarB = [12, 15]\n\ntype(varA) == types.IntType # True\ntype(varB) == types.IntType # False\n\ntype(varA) == types.ListType # False\ntype(varB) == types.ListType # True\n",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import types\n\ndef nested_to_flat(lis):\n    flat_list = []\n    index = 0\n\n    while (index < len(lis)):\n\n        element = lis[index]\n\n        if type(element) != types.IntType:\n            flat_list = flat_list + nested_to_flat(element)\n        else:\n            flat_list.append(element)\n\n        index += 1\n\n    return flat_list",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4481",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "nested-lists-grammar",
+                "slug": "recursion__nested-lists-grammar_md",
+                "sequence_num": 1100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/nested-lists-grammar.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Using Grammar to create Nested Lists\n\n**Yeh thoda advanced concept hai. Iss par aap 4-5 ghante lagane ke baad bhi nahi samajh paa rahe, toh aap isse skip kar kar aage badh sakte hai**\n\n\n\nJaise English mei `Grammar` hoti hai, aise hi hamare `code` ki bhi grammar hoti hai. Issi grammar ko use kar kar `compiler` samajhta hai, hamare `code` ka kya matlab hai, aur woh matlab samajh kar, machine yaai computer samjhata hai. Jis `language` mei `compiler` `machine` ko woh `code` samjhata hai, usse `machine code` kehte hai.\n\n\n\nNested Lists ko grammar ko tarah se samajhte hai.\n\n\n\n1. NESTED_LIST = [ `INTEGER` ]\n\n2. NESTED_LIST = [ NESTED_LIST, `INTEGER` ]\n\n3. NESTED_LIST = [ `INTEGER`, NESTED_LIST ]\n\n4. NESTED_LIST = NESTED_LIST + NESTED_LIST\n\n\n\nDariye mat, yeh bahut simple se rules hai. Yeh rules kehte hai ki, right side mei jo bhi `grammar rules` diye gaye hai woh rules ko use kar kar aap ek nayi `nested list` bana sakte hai.\n\n\n\nJaise,\n\n\n\n`[5]` ek `nested list` hai using Rule 1\n`[[5], 2]` ek `nested list` hai using Rule 2\n`[3, [[5], 2]]` ek `nested list` hai using Rule 3\n`[5, 6, 7]` ek `nested list` hai using Rule 4 (kyuki yeh `[5]`, `[6]`, `[7]` jo teen nested lists hai unko jod kar banayi jaa sakti hai)\n\n\n\nAap dhyaan se dekhenge toh aap kisi bhi nested list ko inn rules mei break kar sakte hai. Ek example ke liye:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "[1, 2, [3, 4, [5, 6, [7, 8]], 9, 10], 11, 12] => [1] + [2, [3, 4, [5, 6, [7, 8]], 9, 10], 11, 12]] # Rule 4 and Rule 1 (for [1])\n[2,     [3, 4, [5, 6, [7, 8]], 9, 10], 11, 12]] # Rule 3\n[3, 4, [5, 6, [7, 8]], 9, 10], 11, 12] => [3] + [4, [5, 6, [7, 8]], 9, 10], 11, 12]] # Rule 4\n[4,             [5, 6, [7, 8]], 9, 10], 11, 12]] # Rule 3\nand so on ...",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nHumein inn rules ko use kar kar ek recursion ka program likhna hai, jo ek random `nested list` generate karta hai.\n\n\n\nHints\n\n- Aap ke paas chaar rules hai, aap chaar rules mei se koi bhi rule randomly use kar kar ek `nested list` generate kar sakte ho\n\n- Har rule ke liye aapko batana padega aapki nayi list kaise hogi\n\n- Aap ek generateRandomNumber naam ka function use kar sakte hai, `INTEGER` generate karne ke liye, aur\n\n- Aap ek generateRandomNestedList naam ka function use kar sakte hai `NESTED_LIST` generate karne ke liye, yeh function recursive hoga\n\n\n\nSolution\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import random\n\nrules = [ \"[INTEGER]\", \"[NESTED_LIST, INTEGER]\", \"[INTEGER, NESTED_LIST]\", \"NESTED_LIST + NESTED_LIST\"]\n\ndef generateRandomNumber():\n    return random.randrange(1, 20)\n\ndef generateRandomNestedList():\n    random_rule = random.randrange(4)\n    if random_rule == 0:\n        return [generateRandomNumber()]\n\n    elif random_rule == 1:\n        return [generateRandomNestedList(), generateRandomNumber()]\n\n    elif random_rule == 2:\n        return [generateRandomNumber(), generateRandomNestedList()]\n\n    elif random_rule == 3:\n        return generateRandomNestedList() + generateRandomNestedList()\n\nprint generateRandomNestedList()",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "\n\nAage\n\nAgar aap ko thoda aur samajhna ka mann hai, toh aap nested_list of `INTEGER` and `STRINGS` mix ke rules likh kar, usko generate karne ka cocde likh sakte hai.\n\n\n\nBahut Aage\n\nAgar aapko yeh exercise interesting lagi, aur aap yeh samajh paa rahe hai, toh aap Shakuntala Devi ka `code` samajh sakte hai. Woh issi logic ko use kar kar likha gaya hai.\n\n\n\nCode\n[yaha\n](https://github.com/navgurukul/shakuntala-devi)\npar available hai.\n"
+                    }
+                ]
+            },
+            {
+                "id": "4480",
+                "parent_exercise_id": null,
+                "course_id": "53",
+                "name": "congrats",
+                "slug": "recursion__congrats_md",
+                "sequence_num": 1200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/recursion/congrats.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Yeh course poora karne ke liye, congrats!\n\nEk do weeks ke baad iss course ko phir se ek baar revise karo, jisse ki aapke concepts aur strengthen ho jayein.\n\n\n\nGood luck! :-)\nYou are a step closer to being a great programmer :-D\n\n"
+                    }
+                ]
+            }
+        ]
+    }
+}
